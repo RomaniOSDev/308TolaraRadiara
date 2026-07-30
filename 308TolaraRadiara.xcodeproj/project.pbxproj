@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AEDD42C86A235B196F63DA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1430A4CEA98937DFE2F05C5 /* MainTabView.swift */; };
+		0E8222AEF12B9DA12B38185F /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251FF58C13910AE7819FF3E0 /* AppDataStore.swift */; };
+		13234E041FA32AFCFBD36097 /* SolarReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92A371AD85142E1B13AB93 /* SolarReading.swift */; };
+		246DDE96D72C6CA1EAC8D245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D20F6EEBFA9595C417A157F /* ContentView.swift */; };
+		24B2C847885AD16970FD99BE /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388B9F3D8B11D7D6CB304A4 /* AppLinks.swift */; };
+		348BAE4B032B4EB26F8B0693 /* DesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BB58B3E283C5DA1BAF8F3 /* DesignComponents.swift */; };
+		37E4D419DEE555054BFF0F05 /* SolarGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA5044A5149E7AF5E880EA7 /* SolarGaugeView.swift */; };
+		4FD92554F8E80361495190AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4073B7D76744D058B82BAA41 /* LaunchScreen.storyboard */; };
+		5128C939A2739ACA1A544252 /* SolarSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2FBC3BFF0E70CD10D315D /* SolarSimulator.swift */; };
+		55F20E46C533CA1F441B7C88 /* ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D644A07D8751168090738A54 /* ScreenBackground.swift */; };
+		63497897BB36881581F05853 /* HistoryInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B2D3B1E19398D711A4CC3F /* HistoryInsightsView.swift */; };
+		692F86F8E472B6D4BB2C5684 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596B47A6D69D390B708379C /* AchievementsView.swift */; };
+		8C44DDC3223920C455F713AC /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC70EE2B15BF6ED63B7D82 /* HapticService.swift */; };
+		8E994C26DF88EF3C5C7D2FA1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510117F6222A124FC2287078 /* OnboardingView.swift */; };
+		9F1F9E97E0C030B9EF514001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E5B65A1CCB1D84A3A0DABE /* SceneDelegate.swift */; };
+		AF4C7E414D2781BA5BD91901 /* img_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 095D7EC04A941804E0F04B65 /* img_banner.png */; };
+		AF7DD7094FFBF789B47BF118 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46849026D732EAF511BE08 /* SettingsView.swift */; };
+		B7E4A91C2F2A4C8D9E1B0D22 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E5F708294B6D8E0F1A23 /* StatisticsView.swift */; };
+		C2FFCDC61DEBD5642824D3C7 /* img_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 593F674686A8C9591E323577 /* img_background.png */; };
+		C45D9CE0B374479DDEAD09F0 /* img_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 237A313CF8B8A7162DD1A3E3 /* img_card.png */; };
+		C8D1E2F3A4B5061728394A5B /* AppFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E0F1A2B3C4051627384A5C /* AppFeatures.swift */; };
+		CEB8E69F2132E9D163CBAC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617970574F7471B33637A1E /* AppDelegate.swift */; };
+		D4D8DF75FE93E968BDC1F5E0 /* img_accent.png in Resources */ = {isa = PBXBuildFile; fileRef = 110ED8FF537408A04056E252 /* img_accent.png */; };
+		D5B795BBC34DFF0F275ED2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08988705B7C3225E6A80AAD /* Assets.xcassets */; };
+		E0F0858BF4131774DE72F6F8 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBF8357AA6D527275B37B5B /* TodayView.swift */; };
+		E1F2A3B4C5D60718293A4B5C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A3B4C5D6E708193A4B5C6D /* NotificationService.swift */; };
+		FCA16A91388458307CB77F75 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825E1BE259C889586C58530 /* Achievement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025B06A4F265EE681225C74F /* 308TolaraRadiara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 308TolaraRadiara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095D7EC04A941804E0F04B65 /* img_banner.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_banner.png; sourceTree = "<group>"; };
+		110ED8FF537408A04056E252 /* img_accent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_accent.png; sourceTree = "<group>"; };
+		237A313CF8B8A7162DD1A3E3 /* img_card.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_card.png; sourceTree = "<group>"; };
+		251FF58C13910AE7819FF3E0 /* AppDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		2D20F6EEBFA9595C417A157F /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3596B47A6D69D390B708379C /* AchievementsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		4073B7D76744D058B82BAA41 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4388B9F3D8B11D7D6CB304A4 /* AppLinks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		4DD2FBC3BFF0E70CD10D315D /* SolarSimulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolarSimulator.swift; sourceTree = "<group>"; };
+		4EB6FA6D34CC416A28AE4D2E /* Pods-308TolaraRadiara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-308TolaraRadiara.release.xcconfig"; path = "Target Support Files/Pods-308TolaraRadiara/Pods-308TolaraRadiara.release.xcconfig"; sourceTree = "<group>"; };
+		510117F6222A124FC2287078 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		55B2D3B1E19398D711A4CC3F /* HistoryInsightsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HistoryInsightsView.swift; sourceTree = "<group>"; };
+		593F674686A8C9591E323577 /* img_background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_background.png; sourceTree = "<group>"; };
+		7825E1BE259C889586C58530 /* Achievement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		7DEDC7CFDA88C235EBCADA05 /* Pods_308TolaraRadiara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_308TolaraRadiara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBF8357AA6D527275B37B5B /* TodayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A049E2B61FDD026E33B85771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A1C3E5F708294B6D8E0F1A23 /* StatisticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		A50BB58B3E283C5DA1BAF8F3 /* DesignComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DesignComponents.swift; sourceTree = "<group>"; };
+		BD46849026D732EAF511BE08 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C08988705B7C3225E6A80AAD /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA5044A5149E7AF5E880EA7 /* SolarGaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolarGaugeView.swift; sourceTree = "<group>"; };
+		CE92A371AD85142E1B13AB93 /* SolarReading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolarReading.swift; sourceTree = "<group>"; };
+		D617970574F7471B33637A1E /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D644A07D8751168090738A54 /* ScreenBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenBackground.swift; sourceTree = "<group>"; };
+		D9E0F1A2B3C4051627384A5C /* AppFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppFeatures.swift; sourceTree = "<group>"; };
+		E1430A4CEA98937DFE2F05C5 /* MainTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E5BB9D9E0E40A2250F61F2A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78EAFF7968D8227ED6E84C5 /* Pods-308TolaraRadiara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-308TolaraRadiara.debug.xcconfig"; path = "Target Support Files/Pods-308TolaraRadiara/Pods-308TolaraRadiara.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A3B4C5D6E708193A4B5C6D /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F5E5B65A1CCB1D84A3A0DABE /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6EC70EE2B15BF6ED63B7D82 /* HapticService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A00CBE276C116740FE7362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119A08970E5EA6462CE6B7F5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				510117F6222A124FC2287078 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1A98D1EEAB6EFA2E4CDDCDF3 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				55B2D3B1E19398D711A4CC3F /* HistoryInsightsView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		1D1FA925EABE571D00782B75 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				251FF58C13910AE7819FF3E0 /* AppDataStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2EAA7C94C660623D30D19C4D /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				3596B47A6D69D390B708379C /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		361C19B5415D958D7E70BF1E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D617970574F7471B33637A1E /* AppDelegate.swift */,
+				F5E5B65A1CCB1D84A3A0DABE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F8C2A1B4D6E7091A2B3C4D5 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3E5F708294B6D8E0F1A23 /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		467C2E30D6650C49173578AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EAA7C94C660623D30D19C4D /* Achievements */,
+				2D20F6EEBFA9595C417A157F /* ContentView.swift */,
+				1A98D1EEAB6EFA2E4CDDCDF3 /* History */,
+				8AB344D19943132B45A11967 /* Main */,
+				119A08970E5EA6462CE6B7F5 /* Onboarding */,
+				987BBE6D9EF81A50CBEF19E0 /* Settings */,
+				3F8C2A1B4D6E7091A2B3C4D5 /* Statistics */,
+				84752696709BC9CE1C724E18 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		514FA42B96CF0C3EF3CD96AD /* img_banner.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				095D7EC04A941804E0F04B65 /* img_banner.png */,
+			);
+			path = img_banner.imageset;
+			sourceTree = "<group>";
+		};
+		585460E63404A54D5B2BD311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025B06A4F265EE681225C74F /* 308TolaraRadiara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCB08FC30AF99373C7FCA25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A5EE0E0662125566308BF /* iOS */,
+				7DEDC7CFDA88C235EBCADA05 /* Pods_308TolaraRadiara.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C816A23FF9A00DC6710C02E /* img_background.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				593F674686A8C9591E323577 /* img_background.png */,
+			);
+			path = img_background.imageset;
+			sourceTree = "<group>";
+		};
+		6D354947FCDE78193BFCAFBC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDA5044A5149E7AF5E880EA7 /* SolarGaugeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		769976EBAA754A8974FD3C87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4388B9F3D8B11D7D6CB304A4 /* AppLinks.swift */,
+				F6EC70EE2B15BF6ED63B7D82 /* HapticService.swift */,
+				F2A3B4C5D6E708193A4B5C6D /* NotificationService.swift */,
+				4DD2FBC3BFF0E70CD10D315D /* SolarSimulator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84752696709BC9CE1C724E18 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				9FBF8357AA6D527275B37B5B /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		890B51695E37D05C832A0C86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EB6FA6D34CC416A28AE4D2E /* Pods-308TolaraRadiara.release.xcconfig */,
+				E78EAFF7968D8227ED6E84C5 /* Pods-308TolaraRadiara.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AB344D19943132B45A11967 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1430A4CEA98937DFE2F05C5 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8B98F4ABCAAD1EDCA5BCB699 /* 308TolaraRadiara */ = {
+			isa = PBXGroup;
+			children = (
+				361C19B5415D958D7E70BF1E /* App */,
+				6D354947FCDE78193BFCAFBC /* Components */,
+				E11C9D3A4FE5C533B62EA980 /* Models */,
+				769976EBAA754A8974FD3C87 /* Services */,
+				A4CED64DE13640C2F3EAC9A0 /* Utilities */,
+				1D1FA925EABE571D00782B75 /* ViewModels */,
+				467C2E30D6650C49173578AE /* Views */,
+				E5BB9D9E0E40A2250F61F2A4 /* Info.plist */,
+				C08988705B7C3225E6A80AAD /* Assets.xcassets */,
+				A2527CC23D88A5FC3B5D5504 /* Base.lproj */,
+				C9B296CD7F2340B4A6C282C3 /* Assets.xcassets */,
+			);
+			path = 308TolaraRadiara;
+			sourceTree = "<group>";
+		};
+		987BBE6D9EF81A50CBEF19E0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BD46849026D732EAF511BE08 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A2527CC23D88A5FC3B5D5504 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4073B7D76744D058B82BAA41 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		A4CED64DE13640C2F3EAC9A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A50BB58B3E283C5DA1BAF8F3 /* DesignComponents.swift */,
+				D644A07D8751168090738A54 /* ScreenBackground.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AD53662B1483CA6DBFB27FD6 /* img_card.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				237A313CF8B8A7162DD1A3E3 /* img_card.png */,
+			);
+			path = img_card.imageset;
+			sourceTree = "<group>";
+		};
+		C9B296CD7F2340B4A6C282C3 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				D40EA2623B1118C4CE6E696D /* img_accent.imageset */,
+				6C816A23FF9A00DC6710C02E /* img_background.imageset */,
+				514FA42B96CF0C3EF3CD96AD /* img_banner.imageset */,
+				AD53662B1483CA6DBFB27FD6 /* img_card.imageset */,
+			);
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		D40EA2623B1118C4CE6E696D /* img_accent.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				110ED8FF537408A04056E252 /* img_accent.png */,
+			);
+			path = img_accent.imageset;
+			sourceTree = "<group>";
+		};
+		DCD09A857292ED160DD29C65 = {
+			isa = PBXGroup;
+			children = (
+				585460E63404A54D5B2BD311 /* Products */,
+				5BCB08FC30AF99373C7FCA25 /* Frameworks */,
+				8B98F4ABCAAD1EDCA5BCB699 /* 308TolaraRadiara */,
+				890B51695E37D05C832A0C86 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E11C9D3A4FE5C533B62EA980 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7825E1BE259C889586C58530 /* Achievement.swift */,
+				D9E0F1A2B3C4051627384A5C /* AppFeatures.swift */,
+				CE92A371AD85142E1B13AB93 /* SolarReading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE9A5EE0E0662125566308BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A049E2B61FDD026E33B85771 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA3E4B1865E5692EFE23DCF /* 308TolaraRadiara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E69C1CF7660ECA475328F7 /* Build configuration list for PBXNativeTarget "308TolaraRadiara" */;
+			buildPhases = (
+				93D67891E1A3F3D0573A0C30 /* [CP] Check Pods Manifest.lock */,
+				7B8D5411468EC15518699075 /* Sources */,
+				F3A00CBE276C116740FE7362 /* Frameworks */,
+				AA38B738C8F0C0856FEB1E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 308TolaraRadiara;
+			productName = 308TolaraRadiara;
+			productReference = 025B06A4F265EE681225C74F /* 308TolaraRadiara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EEEB8D7C06D872CA1FA439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 50879E8F9DE01BCFC449F69B /* Build configuration list for PBXProject "308TolaraRadiara" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD09A857292ED160DD29C65;
+			productRefGroup = 585460E63404A54D5B2BD311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA3E4B1865E5692EFE23DCF /* 308TolaraRadiara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA38B738C8F0C0856FEB1E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B795BBC34DFF0F275ED2A2 /* Assets.xcassets in Resources */,
+				4FD92554F8E80361495190AC /* LaunchScreen.storyboard in Resources */,
+				D4D8DF75FE93E968BDC1F5E0 /* img_accent.png in Resources */,
+				C2FFCDC61DEBD5642824D3C7 /* img_background.png in Resources */,
+				AF4C7E414D2781BA5BD91901 /* img_banner.png in Resources */,
+				C45D9CE0B374479DDEAD09F0 /* img_card.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93D67891E1A3F3D0573A0C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-308TolaraRadiara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8D5411468EC15518699075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB8E69F2132E9D163CBAC4A /* AppDelegate.swift in Sources */,
+				9F1F9E97E0C030B9EF514001 /* SceneDelegate.swift in Sources */,
+				37E4D419DEE555054BFF0F05 /* SolarGaugeView.swift in Sources */,
+				FCA16A91388458307CB77F75 /* Achievement.swift in Sources */,
+				13234E041FA32AFCFBD36097 /* SolarReading.swift in Sources */,
+				24B2C847885AD16970FD99BE /* AppLinks.swift in Sources */,
+				8C44DDC3223920C455F713AC /* HapticService.swift in Sources */,
+				5128C939A2739ACA1A544252 /* SolarSimulator.swift in Sources */,
+				348BAE4B032B4EB26F8B0693 /* DesignComponents.swift in Sources */,
+				55F20E46C533CA1F441B7C88 /* ScreenBackground.swift in Sources */,
+				0E8222AEF12B9DA12B38185F /* AppDataStore.swift in Sources */,
+				692F86F8E472B6D4BB2C5684 /* AchievementsView.swift in Sources */,
+				246DDE96D72C6CA1EAC8D245 /* ContentView.swift in Sources */,
+				63497897BB36881581F05853 /* HistoryInsightsView.swift in Sources */,
+				05AEDD42C86A235B196F63DA /* MainTabView.swift in Sources */,
+				8E994C26DF88EF3C5C7D2FA1 /* OnboardingView.swift in Sources */,
+				AF7DD7094FFBF789B47BF118 /* SettingsView.swift in Sources */,
+				B7E4A91C2F2A4C8D9E1B0D22 /* StatisticsView.swift in Sources */,
+				C8D1E2F3A4B5061728394A5B /* AppFeatures.swift in Sources */,
+				E1F2A3B4C5D60718293A4B5C /* NotificationService.swift in Sources */,
+				E0F0858BF4131774DE72F6F8 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AE0C4C55F8DD8FF783D51CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78EAFF7968D8227ED6E84C5 /* Pods-308TolaraRadiara.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 308TolaraRadiara/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tolara Radiara";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwr.t0lr4d1rt6j;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3AA4A563C275835330C63D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E7293DD92D4474791C1BD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB6FA6D34CC416A28AE4D2E /* Pods-308TolaraRadiara.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 308TolaraRadiara/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tolara Radiara";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwr.t0lr4d1rt6j;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6D57B47BD9D8A4B8BF0FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E69C1CF7660ECA475328F7 /* Build configuration list for PBXNativeTarget "308TolaraRadiara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7293DD92D4474791C1BD5A /* Release */,
+				2AE0C4C55F8DD8FF783D51CD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50879E8F9DE01BCFC449F69B /* Build configuration list for PBXProject "308TolaraRadiara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA4A563C275835330C63D07 /* Debug */,
+				BE6D57B47BD9D8A4B8BF0FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54EEEB8D7C06D872CA1FA439 /* Project object */;
+}
