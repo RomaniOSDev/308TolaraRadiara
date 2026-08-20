@@ -22,6 +22,17 @@
 		8C44DDC3223920C455F713AC /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EC70EE2B15BF6ED63B7D82 /* HapticService.swift */; };
 		8E994C26DF88EF3C5C7D2FA1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510117F6222A124FC2287078 /* OnboardingView.swift */; };
 		9F1F9E97E0C030B9EF514001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E5B65A1CCB1D84A3A0DABE /* SceneDelegate.swift */; };
+		A11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift */; };
+		A11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift */; };
+		A11F03B1C2D3E4F506172839 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F03B1C2D3E4F506172839 /* LaunchDestination.swift */; };
+		A11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift */; };
+		A11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift */; };
+		A11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift */; };
+		A11F07B1C2D3E4F506172839 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F07B1C2D3E4F506172839 /* LaunchStagingState.swift */; };
+		A11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift */; };
+		A11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift */; };
+		A11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift */; };
+		A11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift */; };
 		AF4C7E414D2781BA5BD91901 /* img_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 095D7EC04A941804E0F04B65 /* img_banner.png */; };
 		AF7DD7094FFBF789B47BF118 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46849026D732EAF511BE08 /* SettingsView.swift */; };
 		B7E4A91C2F2A4C8D9E1B0D22 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C3E5F708294B6D8E0F1A23 /* StatisticsView.swift */; };
@@ -34,17 +45,6 @@
 		E0F0858BF4131774DE72F6F8 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBF8357AA6D527275B37B5B /* TodayView.swift */; };
 		E1F2A3B4C5D60718293A4B5C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A3B4C5D6E708193A4B5C6D /* NotificationService.swift */; };
 		FCA16A91388458307CB77F75 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825E1BE259C889586C58530 /* Achievement.swift */; };
-		A11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift */; };
-		A11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift */; };
-		A11F03B1C2D3E4F506172839 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F03B1C2D3E4F506172839 /* LaunchDestination.swift */; };
-		A11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift */; };
-		A11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift */; };
-		A11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift */; };
-		A11F07B1C2D3E4F506172839 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F07B1C2D3E4F506172839 /* LaunchStagingState.swift */; };
-		A11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift */; };
-		A11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift */; };
-		A11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift */; };
-		A11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +68,17 @@
 		A049E2B61FDD026E33B85771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A1C3E5F708294B6D8E0F1A23 /* StatisticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		A50BB58B3E283C5DA1BAF8F3 /* DesignComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DesignComponents.swift; sourceTree = "<group>"; };
+		B11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		B11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		B11F03B1C2D3E4F506172839 /* LaunchDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		B11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		B11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		B11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		B11F07B1C2D3E4F506172839 /* LaunchStagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		B11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		B11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		B11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		B11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
 		BD46849026D732EAF511BE08 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C08988705B7C3225E6A80AAD /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA5044A5149E7AF5E880EA7 /* SolarGaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolarGaugeView.swift; sourceTree = "<group>"; };
@@ -81,17 +92,6 @@
 		F2A3B4C5D6E708193A4B5C6D /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		F5E5B65A1CCB1D84A3A0DABE /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6EC70EE2B15BF6ED63B7D82 /* HapticService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
-		B11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
-		B11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
-		B11F03B1C2D3E4F506172839 /* LaunchDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
-		B11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
-		B11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
-		B11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
-		B11F07B1C2D3E4F506172839 /* LaunchStagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
-		B11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
-		B11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
-		B11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
-		B11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,24 +145,6 @@
 				C11F00B1C2D3E4F506172839 /* LaunchFlow */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		C11F00B1C2D3E4F506172839 /* LaunchFlow */ = {
-			isa = PBXGroup;
-			children = (
-				B11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift */,
-				B11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift */,
-				B11F03B1C2D3E4F506172839 /* LaunchDestination.swift */,
-				B11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift */,
-				B11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift */,
-				B11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift */,
-				B11F07B1C2D3E4F506172839 /* LaunchStagingState.swift */,
-				B11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift */,
-				B11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift */,
-				B11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift */,
-				B11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift */,
-			);
-			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		3F8C2A1B4D6E7091A2B3C4D5 /* Statistics */ = {
@@ -314,6 +296,24 @@
 				237A313CF8B8A7162DD1A3E3 /* img_card.png */,
 			);
 			path = img_card.imageset;
+			sourceTree = "<group>";
+		};
+		C11F00B1C2D3E4F506172839 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B11F01B1C2D3E4F506172839 /* CalendarGateEvaluator.swift */,
+				B11F02B1C2D3E4F506172839 /* DeferredLaunchCanvas.swift */,
+				B11F03B1C2D3E4F506172839 /* LaunchDestination.swift */,
+				B11F04B1C2D3E4F506172839 /* LaunchFlowResolver.swift */,
+				B11F05B1C2D3E4F506172839 /* LaunchFlowSecrets.swift */,
+				B11F06B1C2D3E4F506172839 /* LaunchSessionStore.swift */,
+				B11F07B1C2D3E4F506172839 /* LaunchStagingState.swift */,
+				B11F08B1C2D3E4F506172839 /* RemoteEntryProbe.swift */,
+				B11F09B1C2D3E4F506172839 /* RemoteEntryURLComposer.swift */,
+				B11F0AB1C2D3E4F506172839 /* RootWindowPresenter.swift */,
+				B11F0BB1C2D3E4F506172839 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		C9B296CD7F2340B4A6C282C3 /* Assets.xcassets */ = {
@@ -515,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwr.t0lr4d1rt6j;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -611,7 +611,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwr.t0lr4d1rt6j;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
